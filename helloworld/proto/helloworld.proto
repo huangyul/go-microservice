@@ -1,7 +1,0 @@
-// 定义版本，一般就是3
-syntax = "proto3";
-option go_package = "." ;
-message HelloRequest {
-  string name = 1; // 1是编号，不是值
-  int32  age = 2;
-}
