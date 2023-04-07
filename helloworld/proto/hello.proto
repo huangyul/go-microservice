@@ -1,0 +1,17 @@
+// 写明版本
+syntax = "proto3";
+
+option go_package = "./;proto";
+
+service Hello{
+  rpc Hello(HelloRequest) returns (Response);
+}
+
+// 定义结构体，其他语言可以是对象
+message HelloRequest {
+  string name = 1;// 这是编号，不是值
+}
+
+message Response {
+  string reply = 1;
+}
