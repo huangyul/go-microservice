@@ -1,4 +1,4 @@
-`package main
+package main
 
 import (
 	"context"
@@ -44,4 +44,3 @@ func main() {
 	wg.Wait()
 
 }
-`
